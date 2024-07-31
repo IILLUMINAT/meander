@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 50px;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.android-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.android-button:hover {
+    background-color: #45a049;
+}
+
+/* Медиа-запрос для компьютеров с шириной экрана больше 600 пикселей */
+@media screen and (min-width: 601px) {
+  .download .android-button {
+    width: 250px;
+    height: 50px;
+    padding: 5px 20px;
+    margin: 0;
+    display: block;
+    float: left;
+  }
+}
